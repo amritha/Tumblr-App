@@ -10,9 +10,11 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    //var isPresenting: Bool = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +24,11 @@ class HomeViewController: UIViewController {
     }
     
 
+    /*@IBAction func onLoginPress(sender: AnyObject) {
+        UIView.animateWithDuration(0.4, animations: {self.performSegueWithIdentifier("loginSegue", sender: nil)})
+        
+    }*/
+
     /*
     // MARK: - Navigation
 
@@ -30,6 +37,8 @@ class HomeViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+    
+  
 
+}*/
 }

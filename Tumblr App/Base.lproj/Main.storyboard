@@ -78,7 +78,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.14117647058823529" green="0.20784313725490197" blue="0.29019607843137257" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.25882352941176467" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -125,24 +125,34 @@
             <point key="canvasLocation" x="272" y="658"/>
         </scene>
         <!--Search View Controller-->
-        <scene sceneID="EJg-Dd-20h">
+        <scene sceneID="0gR-Ol-xLW">
             <objects>
-                <viewController storyboardIdentifier="SearchViewController" id="6gi-5a-DmE" customClass="SearchViewController" customModule="Tumblr_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mhm-NJ-hCu">
+                <viewController storyboardIdentifier="SearchViewController" id="ZRs-dq-S6N" customClass="SearchViewController" customModule="Tumblr_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wtm-Ed-Kda">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="search_feed" id="EW7-Kx-fTo">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" id="6Kt-kb-MCY">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="search_feed" id="CZo-nQ-Pyl">
+                                        <rect key="frame" x="-1" y="0.0" width="320" height="524"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="scrollView" destination="6Kt-kb-MCY" id="n1j-fI-lyD"/>
+                        <outlet property="searchView" destination="CZo-nQ-Pyl" id="YPT-oB-VJb"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4QY-gI-tVG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ijv-D6-MJI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="688" y="658"/>
+            <point key="canvasLocation" x="676" y="708"/>
         </scene>
         <!--Compose View Controller-->
         <scene sceneID="pIf-lR-i7H">
@@ -225,7 +235,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14G-Z3-04i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1111" y="658"/>
+            <point key="canvasLocation" x="1123" y="658"/>
         </scene>
         <!--Account View Controller-->
         <scene sceneID="9u1-nb-i67">

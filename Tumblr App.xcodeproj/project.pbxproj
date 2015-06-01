@@ -20,6 +20,7 @@
 		EFCE0F5F1B15854800EA6E31 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCE0F5E1B15854800EA6E31 /* ComposeViewController.swift */; };
 		EFCE0F611B15858A00EA6E31 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCE0F601B15858A00EA6E31 /* AccountViewController.swift */; };
 		EFCE0F631B15864800EA6E31 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCE0F621B15864800EA6E31 /* TrendingViewController.swift */; };
+		EFE1ADCF1B1C1F220020410B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE1ADCE1B1C1F220020410B /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		EFCE0F5E1B15854800EA6E31 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		EFCE0F601B15858A00EA6E31 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		EFCE0F621B15864800EA6E31 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		EFE1ADCE1B1C1F220020410B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				EFCE0F381B143DC800EA6E31 /* AppDelegate.swift */,
 				EFCE0F3A1B143DC800EA6E31 /* ViewController.swift */,
 				EFCE0F3C1B143DC800EA6E31 /* Main.storyboard */,
+				EFE1ADCE1B1C1F220020410B /* LoginViewController.swift */,
 				EF6E53C01B16D77E008B48EA /* TabBarViewController.swift */,
 				EFCE0F621B15864800EA6E31 /* TrendingViewController.swift */,
 				EFCE0F601B15858A00EA6E31 /* AccountViewController.swift */,
@@ -241,6 +244,7 @@
 				EFCE0F611B15858A00EA6E31 /* AccountViewController.swift in Sources */,
 				EFCE0F5F1B15854800EA6E31 /* ComposeViewController.swift in Sources */,
 				EFCE0F391B143DC800EA6E31 /* AppDelegate.swift in Sources */,
+				EFE1ADCF1B1C1F220020410B /* LoginViewController.swift in Sources */,
 				EFCE0F5B1B1582A900EA6E31 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

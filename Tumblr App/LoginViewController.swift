@@ -1,25 +1,24 @@
 //
-//  SearchViewController.swift
+//  LoginViewController.swift
 //  Tumblr App
 //
-//  Created by Amritha Prasad on 5/26/15.
+//  Created by Amritha Prasad on 5/31/15.
 //  Copyright (c) 2015 Amritha Prasad. All rights reserved.
 //
 
 import UIKit
 
-class SearchViewController: UIViewController {
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var searchView: UIImageView!
+class LoginViewController: UIViewController {
 
-
-    
+    @IBOutlet weak var emailField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        //scrollView.contentSize = searchView.image!.size
+
         // Do any additional setup after loading the view.
-        scrollView.contentSize = searchView.image!.size
-        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        emailField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
